@@ -1,0 +1,38 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#cart {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.item-name {
+    flex: 2;
+}
+
+.remove-btn, .quantity-btn {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+
+
+.quantity {
+    margin: 0 10px;
+}
+
+.total-price {
+    font-size: 1.2em;
+    font-weight: bold;
+}
