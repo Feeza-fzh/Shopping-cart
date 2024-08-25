@@ -1,4 +1,3 @@
-// script.js
 document.addEventListener('DOMContentLoaded', () => {
     const cartItems = document.querySelectorAll('.cart-item');
     const totalPriceElement = document.getElementById('total-price');
@@ -10,7 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const minusButton = item.querySelector('.minus-btn');
         const plusButton = item.querySelector('.plus-btn');
 
-        // Update total price
         function updateTotalPrice() {
             let totalPrice = 0;
             cartItems.forEach(cartItem => {
